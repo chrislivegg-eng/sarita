@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.seccion-inicio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #ff4d6d;
+  text-shadow: 0 0 15px rgba(255, 77, 109, 0.5);
+  margin-bottom: 20px;
+}
+
+.contador-card {
+  background: rgba(255, 77, 109, 0.1);
+  padding: 25px;
+  border-radius: 25px;
+  border: 2px solid #ff4d6d;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 350px;
+}
+
+.reloj {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.num {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ff4d6d;
+}
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #ffb3c1;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #333;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  padding: 100px 20px;
+  text-align: center;
+  color: #ff4d6d;
+  font-style: italic;
+}
